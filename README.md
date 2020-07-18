@@ -7,7 +7,7 @@
 * Demonstrate `map()` with complex data structures
 * Use `map()` to generate a new array
 
-
+ 
 ## Introduction
 
 As developers, we find ourselves responsible for all sorts of common, but
