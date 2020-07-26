@@ -22,4 +22,4 @@ const titleCased = function() {
   })
 }
 
-console.log(titleCased())
+// console.log(titleCased())
