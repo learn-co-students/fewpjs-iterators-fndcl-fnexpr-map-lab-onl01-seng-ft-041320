@@ -12,5 +12,16 @@ const tutorials = [
 ];
 
 const titleCased = () => {
-  return tutorials
+  let newTutorials = tutorials.map( tutorial => {
+    let splitTutorial = tutorial.split(" ")
+    let splitUpperCaseTutorial = splitTutorial.map(word => {
+      word = word.split('')
+      let firstLetter = word.shift()
+      firstLetter = firstLetter.toUpperCase()
+      word.unshift(firstLetter)
+      return word = word.join('')
+    })
+    return splitUpperCaseTutorial.join(" ")
+  })
+  return newTutorials
 }
